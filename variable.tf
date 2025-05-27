@@ -12,7 +12,7 @@ variable "zone" {
 }
 
 variable "allow_stopping_for_update" {
-  type = string
+  type = bool
 }
 
 variable "network" {

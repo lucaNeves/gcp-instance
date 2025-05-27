@@ -11,12 +11,5 @@ resource "google_compute_instance" "this" {
     }
     network_interface {
       network = var.network
-      subnetwork = var.subnet
-      access_config {
-        nat_ip = var.nat_ip
-      }
     }
-    # metadata = {
-    #     ssh-keys = var.ssh_keys
-    # }
 }

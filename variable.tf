@@ -19,18 +19,6 @@ variable "network" {
   type = string
 }
 
-variable "subnet" {
-  type = string
-}
-
-variable "nat_ip" {
-  type = string
-}
-
 variable "image" {
   type = string
 }
-
-# variable "ssh_keys" {
-#   type = string
-# }
